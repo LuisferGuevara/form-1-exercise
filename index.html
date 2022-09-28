@@ -1,76 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Create an Issuu Account</title>
-    <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+
     <header>
-        <div class="header__logo">
-            <a href="/"><img src="http://placekitten.com/40/30"/></a>
-            <p class="brand">issuu</p>
-        </div>
-        <div>
-            <p>Already a user?</p>
-            <a href="#">Sing in</a>
-        </div>
+      <div class="header__logo">
+        <a href="/"><img src="/isuu__Logo.png" /></a>
+        <p class="brand">issuu</p>
+      </div>
+      <div>
+        <p>Already a user?</p>
+        <a href="#">Sing in</a>
+      </div>
     </header>
 
     <main>
-        <div class="main__box">
-            <h1>Create an Issuu Account.</h1>
-            <div class="main__social-box">
-                <div class="main__social-item main__social-1">
-                    <a href="/" target="_blank"><i class="fa-brands fa-google"></i> Sing in with Google</a>
-                </div>
-                <div class="main__social-item main__social-2">
-                    <a href="/" target="_blank"><i class="fa-brands fa-facebook-f"></i> Continue with Facebook</a>
-                </div>
-            </div>
-            <p>or with email</p>
-            <div class="form__box">
-                <form method="post" action="/register-user">
-                    <fieldset>
-                        <div>
-                            <label for="email">
-                                <p><strong>Email</strong></p> 
-                                <input  type="email" name="email" class="email__input"  placeholder="e.g. john.doe@email.com" required />
-                            </label>
-                        
-                            <label for="pass" class="password__box">
-                                <p><strong>Password</strong></p>
-                                <input type="password"  name="pass"
-                                class="password__input"
-                                 minlength="10" required />
-                                <a href=""><i class="fa-solid fa-eye-slash"></i></a>
-                            </label>
-                        </div>
-                        <div class="accept__policy-box" >
-                            <input type="checkbox" id="aceppt" name="aceppt__policy"
-                            class="accept__policy-checkbox"/>
-                            <label for="aceppt-policy"> I aceppt the <a href="#">Terms of Service</a> and the <a href="#">Professional Terms of Service</a>.</label>
-                        </div>
-                    </fieldset>
-                    <button type="submit" class="create__account-button" >
-                        <p>Create Account</p>
-                    </button>
-                </form>
-            </div>
+      <div class="main__box">
+        <h1>Create an Issuu Account.</h1>
+        <div class="main__social-box">
+          <div class="main__social-item main__social-1">
+            <a href="/" target="_blank"
+              ><img src="/5847f9cbcef1014c0b5e48c8.png"  class="logo-google" alt=""> Sing in with Google</a
+            >
+          </div>
+          <div class="main__social-item main__social-2">
+            <a href="/" target="_blank"
+              ><i class="fa-brands fa-facebook-f"></i> Continue with Facebook</a
+            >
+          </div>
         </div>
-        </main>
+
+        <p>or with email</p>
+
+        <div class="form__box">
+          <form method="post" action="/register-user">
+            <fieldset>
+              <div>
+                <label for="email">
+                  <p><strong>Email</strong></p>
+                  <input
+                    type="email"
+                    name="email"
+                    class="email__input"
+                    placeholder="e.g. john.doe@email.com"
+                    required
+                  />
+                </label>
+
+                <label for="pass" class="password__box">
+                  <p><strong>Password</strong></p>
+                  <input
+                    type="password"
+                    name="pass"
+                    class="password__input"
+                    minlength="10"
+                    required
+                  />
+                  <a href=""><i class="fa-solid fa-eye-slash"></i></a>
+                </label>
+              </div>
+              <div class="accept__policy-box">
+                <input
+                  type="checkbox"
+                  id="aceppt"
+                  name="aceppt__policy"
+                  class="accept__policy-checkbox"
+                />
+                <label for="aceppt-policy">
+                  I aceppt the <a href="#">Terms of Service</a> and the
+                  <a href="#">Professional Terms of Service</a>.</label
+                >
+              </div>
+            </fieldset>
+            <button type="submit" class="create__account-button">
+              <p>Create Account</p>
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+    
     <footer>
-        <div class="footer__item">
-            <a href="#">Issuu Inc.</a>
-        </div>
-        <ul>
-            <li><a href="#">Tems</a></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">DMCA</a></li>
-        </ul>
+      <div class="footer__item">
+        <a href="#">Issuu Inc.</a>
+      </div>
+      <ul>
+        <li><a href="#">Tems</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">DMCA</a></li>
+      </ul>
     </footer>
-    <script src="https://kit.fontawesome.com/17039c3983.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/17039c3983.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

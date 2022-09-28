@@ -47,7 +47,7 @@ main {
   display: flex;
   margin: 0 auto;
   align-items: center;
-  height: 660px;
+height: 80vh;
   width: 80%;
 }
 
@@ -80,15 +80,17 @@ main {
   background-color: #4286f5;
   margin-right: 16px;
   position: relative;
+  display: flex;
+align-items: center;
 }
 .main__social-1 a {
-  padding-left: 30px;
+  padding-left: 35px;
 }
 .logo-google{
   position: absolute;
   top: -5px;
   left: 2px;
-  width: 22px;
+  width: 28px;
   height: 2px;
   height: auto;
   background-color: white;
@@ -107,8 +109,9 @@ main {
 .main__social-2 i {
   background-color: rgba(245, 245, 245, 0.973);
   color: #4168b2;
-  padding: 5px;
-  margin: 5px 0 0 4px;
+  padding: 8px;
+  margin: 2px 3px ;
+  font-size: 19px;
 }
 
 .form__box {
